@@ -1,0 +1,1 @@
+In this app we will create element, class component and function component and render on index.html file

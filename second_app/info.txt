@@ -1,0 +1,1 @@
+In this we will work on composing component (i.e combining small components into larger ones).
