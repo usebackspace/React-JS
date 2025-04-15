@@ -6,7 +6,7 @@ import React, { Component } from 'react'
 //     }
 // }
 
-// Using State without Constructor
+// Using State with Constructor
 
 // export class Welcome extends Component{
 //     state = {
@@ -33,7 +33,6 @@ export class Welcome extends Component{
 
         }
     }
-    
     
     render() {
         return <h1>Hello , {this.state.name} your Heroic Name is {this.state.heroic_name}</h1>
