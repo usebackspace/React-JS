@@ -12,12 +12,16 @@ export class AvengerState extends Component{
         this.setState({ 'name': 'Tony Stark' })
     }
     
+    // componentDidMount() {
+    //     this.setState({ 'name': 'Tony Stark' })
+
+    // }
     
     render() {
         return (
          <>
             <h1>Hello, I am {this.state.name} Member of Avenger</h1>
-            <button onClick={this.changeHero}>change</button> 
+            {/* <button onClick={this.changeHero}>change</button>  */}
          </>   
         )
     }
