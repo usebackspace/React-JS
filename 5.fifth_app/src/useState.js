@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export function Avenger() {
+export function AvengerState() {
     const [name, setname] = useState('Steve Roger')
     const [heroic_name, setheroicname] = useState('Captain America')
 
