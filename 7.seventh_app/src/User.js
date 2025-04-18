@@ -1,10 +1,10 @@
 
 
-export function AvengerUser() {
+export function AvengerUser(props) {
     return (
         <>
             <h1>Welcome Avenger</h1>
-            <button>Log In</button>
+            <button onClick={props.clickDetail}>Log In</button>
             <button>Sing Up</button>
         </>
     )
