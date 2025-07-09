@@ -1,6 +1,4 @@
-// import aven from "./App";
-// import Avenger from "./App";
-// import AvengerClass from "./App";
+
 import ReactDOM from "react-dom/client"
 import React from "react";
 
@@ -18,6 +16,5 @@ root.render(<AvengerClass/>)
 // root.render(<>
 //     <Avenger/>
 //     <AvengerClass />
-//     {aven}
 // </>)
 
